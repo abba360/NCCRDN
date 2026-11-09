@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@theme{--font-sans:Inter,sans-serif;--font-display:Anton,Impact,sans-serif;--font-mono:"Space Mono",monospace;
+--color-field:#1D3FA8;--color-gold:#D4AF5A;--color-ink:#05070D;--color-mist:#EEF1F7}
+html{scroll-behavior:smooth;scroll-padding-top:4rem}body{overflow-x:hidden}
+@layer components{
+.panel{margin:.5rem;border-radius:1.75rem;padding:4rem 1.25rem}
+@media(min-width:640px){.panel{margin:.75rem;padding:6rem 2.5rem}}
+.wrap{max-width:72rem;margin-inline:auto}
+.light{background:var(--color-mist);color:#0f172a}
+.h2{font-family:var(--font-display);text-transform:uppercase;line-height:.9;font-size:clamp(3rem,9vw,6.5rem)}
+.eyebrow{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;opacity:.7;margin-bottom:.75rem}
+.card{border:1px solid color-mix(in srgb,currentColor 20%,transparent);background:color-mix(in srgb,currentColor 6%,transparent);padding:1.25rem;border-radius:1rem}
+.btn,.btn-o{display:inline-block;font-family:var(--font-mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;padding:.8rem 1.4rem;border-radius:999px;border:1px solid currentColor}
+.btn{background:var(--color-gold);color:var(--color-ink);border-color:var(--color-gold)}.btn:hover{background:#fff;border-color:#fff}
+.btn-o:hover{background:#fff;color:var(--color-ink)}
+.tbc{font-style:italic;opacity:.8;border-bottom:1px dashed currentColor}
+.tab{font-family:var(--font-mono);text-transform:uppercase;font-size:.85rem;padding:.8rem 1.4rem;background:#14297a;color:#fff;border-radius:.75rem 0 0 .75rem}
+.tab:hover{background:var(--color-gold);color:var(--color-ink)}
+.ph{display:grid;place-items:center;background:color-mix(in srgb,currentColor 10%,transparent);background-size:cover;background-position:center;border-radius:1rem}
+}
+.display{font-family:var(--font-display);text-transform:uppercase;line-height:.95;font-size:clamp(1rem, 5vw, 4rem)}
+.dial{position:absolute;width:clamp(5.5rem,14vw,11rem);aspect-ratio:1;border-radius:50%;display:grid;place-content:center;text-align:center;
+background:radial-gradient(circle at 30% 25%,#4b5563,#0a0c12 62%);box-shadow:inset 0 0 0 5px #0a0c12,inset 0 0 0 6px var(--color-gold),0 20px 30px rgba(0,0,0,.35);animation:float 7s ease-in-out infinite}
+.dial::before{content:"";position:absolute;top:-.8rem;left:50%;width:22%;height:.9rem;transform:translateX(-50%);background:#1b1f29;border-radius:4px 4px 0 0}
+.dial b{font-family:var(--font-display);font-weight:400;font-size:clamp(1.8rem,5vw,4rem);color:var(--color-gold);line-height:1}
+.dial small{font-family:var(--font-mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:#cbd5e1}
+@keyframes float{50%{transform:translateY(-10px) rotate(3deg)}}
+[data-nav].active{color:var(--color-gold);border-bottom:1px solid var(--color-gold)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--color-gold);outline-offset:2px}
+.acc{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s}.acc.open{grid-template-rows:1fr}.acc>div{overflow:hidden}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
