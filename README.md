@@ -1,4 +1,7 @@
-# IACD/ICDP 2026 Website (Vite + Tailwind v4)
+# NCCRDN
+IACD/ICDP 2026 conference website for community development.
+
+## Project
 Static site; builds to plain HTML/CSS/JS in `dist/`. No backend.
 
 ## Run
