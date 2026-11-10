@@ -62,14 +62,14 @@ const CONFIG = {
     ]
   },
   speakers: [ // 4th value: portrait path, e.g. 'images/speakers/falola.jpg'
-    ['Prof. J. Afolabi Falola','Emeritus Professor of Geography and Development','Lead Paper Presenter','images/speakers/Prof_J.jpeg'],
+    ['Prof. J. Afolabi Falola','Emeritus Professor of Geography and Development','Lead Paper Presenter','images/speakers/Proj_J.webp'],
     ['Engineer Bello Abdullahi Gwarzo FNSE','Public Affairs Analyst and Commentator','Guest Speaker','images/speakers/Engr_Bello.png'],
     ['Honourable Commissioner','Ministry for Local Government, Jigawa State','Guest of Honour',''],
-    ['Prof. S.A. Ma’aji','MD/CEO, North West Development Commission','Special Guest of Honour','images/speakers/Prof_SA_Ma.jpeg'],
+    ['Prof. S.A. Ma’aji','MD/CEO, North West Development Commission','Special Guest of Honour','images/speakers/Prof_SA_Ma.webp'],
   ],
   committee: [
     ['Professor Muhammad Bello Shitu','Chairman','images/partners/Prof_shitu.jpg'],
-    ['Garba Hamma Dikko','Secretary','']
+    ['Garba Hamma Dikko','Secretary','images/partners/garba.webp']
   ],
   dates: [['Arrival','7 December 2026'],['Conference Day 1','8 December 2026'],['Conference Day 2','9 December 2026'],['Departure','10 December 2026']],
   programme: [],
