@@ -65,7 +65,7 @@ const CONFIG = {
     ['Prof. J. Afolabi Falola','Emeritus Professor of Geography and Development','Lead Paper Presenter','images/speakers/Proj_J.webp'],
     ['Engineer Bello Abdullahi Gwarzo FNSE','Public Affairs Analyst and Commentator','Guest Speaker','images/speakers/Engr_Bello.png'],
     ['Honourable Commissioner','Ministry for Local Government, Jigawa State','Guest of Honour',''],
-    ['Prof. S.A. Ma’aji','MD/CEO, North West Development Commission','Special Guest of Honour','images/speakers/Prof_SA_Ma.webp'],
+    ['Prof. S.A. Ma’aji','MD/CEO, North West Development Commission','Special Guest of Honour',''],
   ],
   committee: [
     ['Professor Muhammad Bello Shitu','Chairman','images/partners/Prof_shitu.jpg'],
