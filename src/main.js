@@ -69,7 +69,7 @@ const CONFIG = {
   ],
   committee: [
     ['Professor Muhammad Bello Shitu','Chairman','images/partners/Prof_shitu.jpg'],
-    ['Muhammad EL-Gambo','Secretary','']
+    ['Garba Hamma Dikko','Secretary','']
   ],
   dates: [['Arrival','7 December 2026'],['Conference Day 1','8 December 2026'],['Conference Day 2','9 December 2026'],['Departure','10 December 2026']],
   programme: [],
