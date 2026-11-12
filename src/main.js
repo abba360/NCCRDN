@@ -69,6 +69,7 @@ const CONFIG = {
   ],
   committee: [
     ['Professor Muhammad Bello Shitu','Chairman','images/partners/Prof_shitu.jpg'],
+    ['Professor Abdul Hamidu Abdullahi','IACD Board Member Representing West Africa','images/partners/Prof_hamidu.jpeg'],
     ['Garba Hamma Dikko','Secretary','images/partners/garba.webp']
   ],
   dates: [['Arrival','7 December 2026'],['Conference Day 1','8 December 2026'],['Conference Day 2','9 December 2026'],['Departure','10 December 2026']],
