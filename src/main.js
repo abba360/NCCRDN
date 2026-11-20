@@ -5,7 +5,7 @@ const ICONS = { Handshake, Globe, Search, Lightbulb, Network, BookOpen, Users, F
 // ===== Central configuration: edit here =====
 const CONFIG = {
   eventDate: '2026-12-08T09:00:00+01:00',
-  links: { register:'https://forms.gle/VKn94cLwcjgp8MMB8', abstract:'https://forms.gle/hixp1kFZsQUXn4tK9', paper:'#', guidelines:'/documents/NCCRDN_2026_Registration_and_Call_for_Papers_Guidelines.pdf', map:'#', partner:'#' }, // replace '#' with real URLs
+  links: { register:'https://forms.gle/VKn94cLwcjgp8MMB8', abstract:'https://forms.gle/hixp1kFZsQUXn4tK9', paper:'#', guidelines:'/documents/NCCRDN_2026_Registration_and_Call_for_Papers_Guidelines.pdf', map:'https://www.google.com/maps/search/?api=1&query=Ahmadu+Bello+Hall%2C+State+Secretariat%2C+Dutse%2C+Jigawa+State', partner:'#' }, // replace '#' with real URLs
   socialLinks: { linkedin:'https://www.linkedin.com/in/muhammad-bello-shitu-3663b282/' },
   nav: [['home','Home'],['about','About'],['objectives','Objectives'],['sub-themes','Sub-themes'],['speakers','Speakers'],['call-for-papers','Call for Papers'],['programme','Programme'],['partners','Partners'],['contact','Contact']],
   objectives: [
@@ -88,11 +88,6 @@ const CONFIG = {
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)]
 const TBC='<span class="tbc">To be announced</span>'
 $$('[data-link]').forEach(a=>a.href=CONFIG.links[a.dataset.link]||'#')
-$('#venue-map-button').addEventListener('click',()=>{
-  const status=$('#venue-map-status')
-  status.textContent='Venue and location details are currently being finalized. Google Maps directions will be available once they are confirmed. Please check back soon.'
-  status.hidden=false
-})
 
 // Navigation
 $('#nav-desktop').innerHTML=CONFIG.nav.map(([i,t])=>`<a href="#${i}" data-nav="${i}" class="py-1 hover:text-gold">${t}</a>`).join('')
