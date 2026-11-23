@@ -78,7 +78,7 @@ const CONFIG = {
     'Sponsors and supporting organisations':[
       {name:'IACD',url:'https://www.iacdglobal.org',logo:'images/logos/IACD_logo.jpg'},
       {name:'ICDP Nigeria',url:'https://www.icdpnigeria.org',logo:'images/logos/ICDP_logo.png'},
-      {name:'CITAD',logo:'images/logos/citad.png'}
+      {name:'CITAD',logo:'images/logos/ICEADA_Logo.png'}
     ],
     // 'Institutional partners':[], 'Government and development partners':[], 'Organising institutions':[]
   },
