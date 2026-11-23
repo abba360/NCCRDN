@@ -5,7 +5,7 @@ const ICONS = { Handshake, Globe, Search, Lightbulb, Network, BookOpen, Users, F
 // ===== Central configuration: edit here =====
 const CONFIG = {
   eventDate: '2026-12-08T09:00:00+01:00',
-  links: { register:'https://forms.gle/VKn94cLwcjgp8MMB8', abstract:'https://forms.gle/hixp1kFZsQUXn4tK9', paper:'#', guidelines:'/documents/NCCRDN_2026_Registration_and_Call_for_Papers_Guidelines.pdf', map:'https://www.google.com/maps/search/?api=1&query=Ahmadu+Bello+Hall%2C+State+Secretariat%2C+Dutse%2C+Jigawa+State', partner:'#' }, // replace '#' with real URLs
+  links: { register:'https://forms.gle/VKn94cLwcjgp8MMB8', abstract:'https://forms.gle/hixp1kFZsQUXn4tK9', paper:'https://forms.gle/dGoUH2JKdeWk9QDKA', guidelines:'/documents/NCCRDN_2026_Registration_and_Call_for_Papers_Guidelines.pdf', map:'https://www.google.com/maps/search/?api=1&query=Ahmadu+Bello+Hall%2C+State+Secretariat%2C+Dutse%2C+Jigawa+State', partner:'#' }, // replace '#' with real URLs
   socialLinks: { linkedin:'https://www.linkedin.com/in/muhammad-bello-shitu-3663b282/' },
   nav: [['home','Home'],['about','About'],['objectives','Objectives'],['sub-themes','Sub-themes'],['speakers','Speakers'],['call-for-papers','Call for Papers'],['programme','Programme'],['partners','Partners'],['contact','Contact']],
   objectives: [
